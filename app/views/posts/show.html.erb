@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-md-12">
+    <h1>記事内容</h1>
+    <p>タイトル：</p>
+    <p><%= @post.title %></p>
+    <p></p>カテゴリ：
+    <p><%= @post.category %></p>
+    <p>本文：</p>
+    <p><%= @post.body %></p>
+    <%= link_to '戻る', posts_path %>
+    <%= link_to '編集', edit_post_path(@post) %>
+    <%= link_to '削除', post_path, method: :delete %>
+  </div>
+</div>
