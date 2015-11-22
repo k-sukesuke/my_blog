@@ -8,3 +8,5 @@
 Post.create(title: "ブログアプリ開発について", category: "キャンプ" , body: "ポイントは調べる力。どれだけ調べることができるか")
 
 Post.create(title: "今日の夕食", category: "日常生活" , body: "スーパーで弁当を買ってきて、それを食べた!")
+
+Author.create(name: 'Elites-Camp', description: 'Study Programming', image_url:'http://spartacamp.jp/img/full/099.jpg')
